@@ -39,7 +39,7 @@ body{
     width: 400px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     flex-direction: column;
 }
 @media (max-width: 768px) { /* Target screens smaller than 768px */
@@ -52,6 +52,7 @@ body{
     }
 
     .right{
-        width: 70%;
+        width: 80%;
+
     }
 }
